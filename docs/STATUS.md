@@ -1,32 +1,42 @@
 # Aktueller Projektstatus
 
 **Zuletzt aktualisiert:** 13.10.2026
-**Phase:** P0 – Repository-Grundlagen und Projektplanung
-**Projektzustand:** **Noch kein Spiel gebaut, getestet oder veröffentlicht.**
+**Phase:** P0 – Dokumentationsgrundlagen abgeschlossen; **P1 (Ideenwahl) und P2 (Editor-Test) offen**
+**Projektzustand:** **Noch kein Spiel gebaut, im Editor getestet oder veröffentlicht.**
 
-## Bestätigt
-- Repository AI-Game-Studio existiert und ist öffentlich.
-- Ziel: KI-first Spiele/Maps mit potentieller legitimer Monetarisierung.
-- Dokumentations- und Agentenregeln sind als gemeinsame Grundlage eingerichtet.
-- Roblox ist die **vorläufige** Erstempfehlung; finaler Plattform- und Spielentscheid ist offen.
+## Bestätigt und erledigt
+- Das öffentliche GitHub-Repository AI-Game-Studio wurde erfolgreich eingerichtet.
+- Zentraler Einstieg (README), verbindliche Regeln für KI-Agents (AGENTS.md, CLAUDE.md), Projektauftrag, Roadmap, Entscheidungen und Plattformstrategie sind vorhanden.
+- Technische Anleitungen zu Roblox Studio MCP / Fortnite UEFN MCP, Qualitätsgates, Monetarisierung, technische Struktur, Spielvorlage, Asset-Register und Übergabevorlage sind vorhanden.
+- GitHub-Issue- und Pull-Request-Vorlagen sind angelegt.
+- Sechs nummerierte Arbeitspakete sind als Issues erfasst.
+- Roblox ist die **vorläufige** Erstempfehlung; finale Plattform- und Spielentscheidung ist **offen**.
+
+## Operativer Aufgabenplan
+| Reihenfolge | Aufgabe | Zustand |
+| --- | --- | --- |
+| 1 | [#1 Erste Plattform und Spielidee auswählen](https://github.com/memetreza34-ux/AI-Game-Studio/issues/1) | Offen |
+| 2 | [#2 Roblox Studio MCP mit Codex/Claude wirklich testen](https://github.com/memetreza34-ux/AI-Game-Studio/issues/2) | Offen |
+| 3 | [#3 MVP-Spezifikation und Projektstruktur](https://github.com/memetreza34-ux/AI-Game-Studio/issues/3) | Offen |
+| 4 | [#4 Ersten spielbaren Kern-Loop entwickeln](https://github.com/memetreza34-ux/AI-Game-Studio/issues/4) | Offen |
+| 5 | [#5 Spieltests und Go/No-Go](https://github.com/memetreza34-ux/AI-Game-Studio/issues/5) | Offen |
+| 6 | [#6 Veröffentlichung und Monetarisierung vorbereiten](https://github.com/memetreza34-ux/AI-Game-Studio/issues/6) | Offen; Veröffentlichung nur nach Freigabe |
 
 ## Noch nicht bestätigt / nicht vorhanden
-- Kein ausgewählter Spieltitel oder finaler Game-Loop.
-- Kein Editor-Verbindungsnachweis für Codex oder Claude in diesem Projekt.
-- Kein Roblox-/UEFN-Spielprojekt und keine implementierten Gameplay-Funktionen.
-- Keine Playtests, Analytics, Spielerzahlen, Einnahmen oder Veröffentlichung.
-- Keine geprüfte personenbezogene Teilnahmeberechtigung für Creator-/Auszahlungsprogramme.
+- Keine verbindliche Spielidee und kein finaler Game-Loop.
+- Kein Nachweis, dass ein KI-Agent in **diesem** Projekt tatsächlich Roblox/UEFN steuert.
+- Keine Luau-/Verse-Spielimplementierung, keine lauffähige Szene, keine Playtests.
+- Keine Spielerzahlen, Analytics, Einnahmen oder öffentliche Veröffentlichung.
+- Keine individuell geprüften Teilnahme- oder Auszahlungsvoraussetzungen.
 
-## Nächste 3 Schritte
-1. **Erstes Spiel definieren:** 3 Ideen anhand docs/IDEA_SELECTION.md bewerten und 1 MVP samt Kern-Loop festlegen.
-2. **Plattform real testen:** Editor lokal einrichten, MCP mit einem KI-Client verbinden, minimale Spieländerung nachvollziehbar durchführen.
-3. **MVP-Spezifikation schreiben:** einzelne Funktionen, Assets, Erfolgs-/Abbruchkriterien und testbare Arbeitspakete festhalten.
+## Unmittelbar nächster Schritt
+**Issue #1**: drei kleine, originelle Spielideen mit docs/IDEA_SELECTION.md bewerten und den Eigentümer die erste Plattform und das MVP verbindlich festlegen lassen. Parallel kann **Issue #2** als isolierter Editor-/MCP-Proof im Testprojekt geprüft werden, sobald der Entwicklungsrechner erreichbar ist.
 
-## Blocker und offene Fragen
-- Erster Spieltyp ist noch nicht gewählt.
-- Editor/MCP-Laufzeit kann erst auf dem Entwicklungsrechner überprüft werden.
-- Plattformkonto- und Auszahlungsvoraussetzungen sind individuell zu prüfen; keine sensiblen Daten ins Repo schreiben.
-- Monetarisierung bleibt bis zu Plattformprüfung und Spieltests eine Hypothese.
+## Blocker / Risiken
+- Auswahl des Produkts braucht eine explizite Entscheidung.
+- Echtzeit-Studio-/MCP-Tests benötigen lokalen Editorzugriff.
+- Externe Auszahlungen, Konten, Rechtslage und Regeln sind individuell zu prüfen; keine sensiblen Angaben in dieses öffentliche Repo.
+- Die Monetarisierung ist noch ungetestet und nicht garantiert.
 
-## Aktualisierungsregel
-Bei jeder substanziellen Umsetzung mindestens Datum, Phase, erledigte Punkte, tatsächlich ausgeführte Tests, Risiken, nächsten Schritt und PR/Issue/Commit ergänzen. Nichts als „getestet“ oder „veröffentlicht“ deklarieren, was nicht nachgewiesen ist.
+## Regel für kommende Agents
+Nach jeder substanziellen Arbeit **Datum, realen Implementierungsstand, getestete Schritte, offene Risiken, Commits/PRs und nächsten Task** hier aktualisieren. Nicht ausgeführte Tests nie als bestanden kennzeichnen.
