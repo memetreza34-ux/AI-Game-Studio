@@ -10,7 +10,7 @@
 | --- | --- |
 | Was ist das Ziel? | [Projektauftrag](docs/PROJECT_CHARTER.md) |
 | Was ist jetzt erledigt / was fehlt? | [Aktueller Status](docs/STATUS.md) |
-| Was ist als Nächstes dran? | [Roadmap](docs/ROADMAP.md) und [GitHub Issues](../../issues) |
+| Was ist als Nächstes dran? | [Roadmap](docs/ROADMAP.md) und [GitHub Issues](https://github.com/memetreza34-ux/AI-Game-Studio/issues) |
 | Welche Plattform und warum? | [Plattformvergleich](docs/PLATFORM_STRATEGY.md) |
 | Welche Spielidee zuerst? | [Bewertung von Spielideen](docs/IDEA_SELECTION.md) |
 | Wie arbeiten Codex, Claude und andere Agents? | **[AGENTS.md](AGENTS.md)** und [KI-Arbeitsablauf](docs/AI_WORKFLOW.md) |
@@ -47,6 +47,12 @@
 - `.github/` – Vorlagen für Aufgaben und Pull Requests.
 
 **Wichtig:** Dieses Repository ist öffentlich. Keine Passwörter, API-Schlüssel, Tokens, privaten Identitäts- oder Zahlungsdaten committen. Es wird derzeit **keine Lizenz für eine freie Weiterverwendung** eingeräumt; mögliche Open-Source-Lizenzen erst bewusst auswählen.
+
+## Konkrete nächsten Aufgaben
+
+- [Issue #1: Plattform und erstes Spiel auswählen](https://github.com/memetreza34-ux/AI-Game-Studio/issues/1)
+- [Issue #2: Codex-/Claude-Anbindung an Roblox Studio testen](https://github.com/memetreza34-ux/AI-Game-Studio/issues/2)
+- [Alle sechs geplanten Arbeitspakete](https://github.com/memetreza34-ux/AI-Game-Studio/issues)
 
 ## Aktueller nächster Meilenstein
 
