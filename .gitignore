@@ -1,0 +1,34 @@
+# Private Konfiguration, Geheimnisse
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+secrets.*
+credentials.*
+!credentials.example.*
+
+# Betriebssystem, Editoren, Logs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+*.log
+logs/
+tmp/
+temp/
+.cache/
+__pycache__/
+node_modules/
+dist/
+build/
+coverage/
+
+# Lokale Tests und automatisch erzeugte Daten
+*.tmp
+*.bak
+*.swp
+
+# WICHTIG: Spielwelten, Luau-/Verse-Quellen und Assets
+# nicht pauschal ignorieren; große Binärdaten bei Bedarf via Git LFS.
