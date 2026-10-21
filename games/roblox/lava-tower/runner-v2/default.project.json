@@ -1,0 +1,12 @@
+{
+  "name": "RunnerV2Modules",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "RunnerV2": {
+        "$path": "src/shared"
+      }
+    }
+  }
+}
