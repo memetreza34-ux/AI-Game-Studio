@@ -11,6 +11,7 @@
 | D-005 | 13.10.2026 | Erstes Spielkonzept | **Offen** | Ideenauswahl und Tests fehlen |
 | D-006 | 13.10.2026 | Keine kostenpflichtigen Dienste oder Publikation ohne Eigentümerfreigabe | **Angenommen** | Finanzielle und rechtliche Kontrolle |
 | D-007 | 13.10.2026 | Source-Code/Assets-Lizenz | **Offen** | Eigentümer muss bewusste Entscheidung treffen; öffentlich ist nicht automatisch Open Source |
+| D-008 | 21.10.2026 | Bestehenden Roblox-Runner beibehalten und Gameplay statt Genre/Map-Konzept verändern; andere Plattformen vorerst zurückstellen | **Angenommen** | Direkte Nutzerentscheidung: Runner wie Subway Surfers bleibt; es fehlen Abwechslung, Schwierigkeit und besondere Momente |
 
 ## Entscheidungsformat für neue Entscheidungen
 
