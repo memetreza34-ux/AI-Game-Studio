@@ -1,6 +1,6 @@
 # AI Game Studio
 
-> **Update 21.10.2026:** Der Nutzer priorisiert inzwischen die Verbesserung seines **bestehenden Roblox-Runners im Subway-Surfers-Stil**. Auf dem Branch `feature/roblox-runner-gameplay-v2` werden erste Luau-Systeme für faire Wellen, Combo und Rush entwickelt. **Die lokale Roblox-Place wurde nicht eingesehen, nicht verändert und nicht getestet.** Siehe [Integrationsanleitung](games/roblox/lava-tower/runner-v2/README.md) und [aktuellen Status](docs/STATUS.md). Die nachstehende Grundlagenbeschreibung bezieht sich auf den Stand vom 13.10.2026.
+> **Update 21.10.2026:** Der Nutzer priorisiert inzwischen die Verbesserung seines **bestehenden Roblox-Runners im Subway-Surfers-Stil**. Auf dem Branch `feature/roblox-runner-gameplay-v2` werden erste Luau-Systeme für faire Wellen, Combo und Rush entwickelt. **Die lokale Roblox-Place wurde nicht eingesehen, nicht verändert und nicht getestet.** Für den nächsten lokalen Schritt: [Antigravity-Übergabe](docs/ANTIGRAVITY_NEXT.md), [Integrationsanleitung](games/roblox/lava-tower/runner-v2/README.md) und [aktueller Status](docs/STATUS.md). Die nachstehende Grundlagenbeschreibung bezieht sich auf den Stand vom 13.10.2026.
 
 **KI-gestützte Entwicklung von Spielen, Maps und virtuellen Welten – mit Fokus auf spielerischen Mehrwert und überprüfbare Monetarisierung.**
 
