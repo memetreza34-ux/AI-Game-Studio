@@ -1,0 +1,18 @@
+{
+  "name": "RunnerV2Tests",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "RunnerV2": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "RunnerV2Spec": {
+        "$path": "tests/RunnerV2Spec.server.luau"
+      }
+    }
+  }
+}
